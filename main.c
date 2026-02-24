@@ -34,7 +34,7 @@ int main(){
 	}
 
 	for(int i=0; i<DIM; i++) {
-        p->stato[i] = LIBERO;
+        m->stato[i] = LIBERO;
     }
 
 	semid = semget(key_sem, 5, IPC_CREAT | 0664); 
